@@ -1,0 +1,99 @@
+/* Custom Styles for Main Page */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.dark-mode .header {
+    background-color: #771010;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .navbar {
+    background-color: #333; /* Navbar background color for dark mode */
+    color: #fff; /* Navbar text color for dark mode */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #333;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dark-mode .content h2 {
+    color: crimson;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.dark-mode {
+    background-color: #121212; /* Background color for dark mode */
+    color: #ffffff; /* Text color for dark mode */
+}
+
+
+.container {
+    display: flex; /* Use flexbox to place paragraphs side by side */
+}
+
+.paragraph {
+    flex: 1; /* Make each paragraph take equal width */
+    margin: 10px; /* Add some spacing between paragraphs */
+    border: 1px solid #ccc; /* Optional: Add borders for separation */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
